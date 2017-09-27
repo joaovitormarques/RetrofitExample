@@ -38,7 +38,9 @@
             android:layout_height="wrap_content"
             android:maxLines="3"
             android:paddingRight="16dp"
-            android:textColor="@color/colorGreyLight" />
+            android:textColor="@color/colorGreyLight"
+            android:singleLine="false"
+            android:ellipsize="end"/>
 
     </LinearLayout>
 
